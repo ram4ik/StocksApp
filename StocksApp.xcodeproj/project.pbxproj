@@ -12,6 +12,7 @@
 		1DB0581625E0FCE100C0C449 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DB0581525E0FCE100C0C449 /* Assets.xcassets */; };
 		1DB0581925E0FCE100C0C449 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DB0581825E0FCE100C0C449 /* Preview Assets.xcassets */; };
 		1DB0582D25E0FE5C00C0C449 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB0582C25E0FE5C00C0C449 /* NetworkManager.swift */; };
+		1DB0583025E106BE00C0C449 /* GlobalQuote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB0582F25E106BE00C0C449 /* GlobalQuote.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1DB0581825E0FCE100C0C449 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1DB0581A25E0FCE100C0C449 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1DB0582C25E0FE5C00C0C449 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		1DB0582F25E106BE00C0C449 /* GlobalQuote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalQuote.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		1DB0582325E0FD4F00C0C449 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				1DB0582F25E106BE00C0C449 /* GlobalQuote.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 				1DB0582D25E0FE5C00C0C449 /* NetworkManager.swift in Sources */,
 				1DB0581425E0FCDD00C0C449 /* ContentView.swift in Sources */,
 				1DB0581225E0FCDD00C0C449 /* StocksAppApp.swift in Sources */,
+				1DB0583025E106BE00C0C449 /* GlobalQuote.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
