@@ -39,6 +39,9 @@
 		1DB0587C25E1939400C0C449 /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB0587B25E1939400C0C449 /* SearchResponse.swift */; };
 		1DB0587F25E193C900C0C449 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB0587E25E193C900C0C449 /* Search.swift */; };
 		1DB0588225E194EC00C0C449 /* SearchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB0588125E194EC00C0C449 /* SearchManager.swift */; };
+		1DB0588525E196E300C0C449 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB0588425E196E300C0C449 /* UserDefaultsManager.swift */; };
+		1DB0588825E198FB00C0C449 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB0588725E198FB00C0C449 /* Array+Extensions.swift */; };
+		1DB0588B25E1999A00C0C449 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB0588A25E1999A00C0C449 /* SearchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,6 +78,9 @@
 		1DB0587B25E1939400C0C449 /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
 		1DB0587E25E193C900C0C449 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
 		1DB0588125E194EC00C0C449 /* SearchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchManager.swift; sourceTree = "<group>"; };
+		1DB0588425E196E300C0C449 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
+		1DB0588725E198FB00C0C449 /* Array+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
+		1DB0588A25E1999A00C0C449 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +192,7 @@
 		1DB0582725E0FD6D00C0C449 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				1DB0588A25E1999A00C0C449 /* SearchView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -227,6 +234,8 @@
 				1DB0586E25E1826600C0C449 /* AsyncImage */,
 				1DB0582C25E0FE5C00C0C449 /* NetworkManager.swift */,
 				1DB0584625E1358700C0C449 /* CustomTextField.swift */,
+				1DB0588425E196E300C0C449 /* UserDefaultsManager.swift */,
+				1DB0588725E198FB00C0C449 /* Array+Extensions.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -348,6 +357,7 @@
 				1DB0584A25E1377F00C0C449 /* SearchTextView.swift in Sources */,
 				1DB0584725E1358700C0C449 /* CustomTextField.swift in Sources */,
 				1DB0587C25E1939400C0C449 /* SearchResponse.swift in Sources */,
+				1DB0588825E198FB00C0C449 /* Array+Extensions.swift in Sources */,
 				1DB0587625E1829C00C0C449 /* ImageCacheKey.swift in Sources */,
 				1DB0584D25E1440600C0C449 /* QuoteCell.swift in Sources */,
 				1DB0586225E1730600C0C449 /* NewsSheetView.swift in Sources */,
@@ -365,6 +375,8 @@
 				1DB0584025E1201500C0C449 /* StockQuoteManager.swift in Sources */,
 				1DB0585325E1573400C0C449 /* NewsResponse.swift in Sources */,
 				1DB0583725E1095F00C0C449 /* API.swift in Sources */,
+				1DB0588525E196E300C0C449 /* UserDefaultsManager.swift in Sources */,
+				1DB0588B25E1999A00C0C449 /* SearchView.swift in Sources */,
 				1DB0583025E106BE00C0C449 /* GlobalQuote.swift in Sources */,
 				1DB0587925E182AD00C0C449 /* AsyncImage.swift in Sources */,
 				1DB0583A25E11E1A00C0C449 /* QuoteManagerProtocol.swift in Sources */,
