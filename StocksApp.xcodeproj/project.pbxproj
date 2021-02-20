@@ -22,6 +22,7 @@
 		1DB0584725E1358700C0C449 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB0584625E1358700C0C449 /* CustomTextField.swift */; };
 		1DB0584A25E1377F00C0C449 /* SearchTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB0584925E1377F00C0C449 /* SearchTextView.swift */; };
 		1DB0584D25E1440600C0C449 /* QuoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB0584C25E1440600C0C449 /* QuoteCell.swift */; };
+		1DB0585025E1483F00C0C449 /* MiniQuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB0584F25E1483F00C0C449 /* MiniQuoteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		1DB0584625E1358700C0C449 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		1DB0584925E1377F00C0C449 /* SearchTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTextView.swift; sourceTree = "<group>"; };
 		1DB0584C25E1440600C0C449 /* QuoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteCell.swift; sourceTree = "<group>"; };
+		1DB0584F25E1483F00C0C449 /* MiniQuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniQuoteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,6 +204,7 @@
 				1DB0584325E12F9200C0C449 /* HeaderView.swift */,
 				1DB0584925E1377F00C0C449 /* SearchTextView.swift */,
 				1DB0584C25E1440600C0C449 /* QuoteCell.swift */,
+				1DB0584F25E1483F00C0C449 /* MiniQuoteView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DB0585025E1483F00C0C449 /* MiniQuoteView.swift in Sources */,
 				1DB0582D25E0FE5C00C0C449 /* NetworkManager.swift in Sources */,
 				1DB0584A25E1377F00C0C449 /* SearchTextView.swift in Sources */,
 				1DB0584725E1358700C0C449 /* CustomTextField.swift in Sources */,
