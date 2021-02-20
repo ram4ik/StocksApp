@@ -10,6 +10,7 @@ import SwiftUI
 struct ContentView: View {
     
     @ObservedObject var stockManager = MockQuoteManager() // StockQuoteManager()
+    @ObservedObject var newsManager = NewsDownloadManager()
     
     @State private var stocks = ["AAPL", "GOOG"]
     @State private var searchTerm = ""
@@ -63,6 +64,9 @@ struct ContentView: View {
                 .foregroundColor(.white)
             }.padding(.horizontal, 32)
             .padding(.bottom, UIScreen.main.bounds.height * 0.21)
+            
+            NewsSheetView(newsOpen: $newsOpen, newsManager: newsManager)
+            
         }.edgesIgnoringSafeArea(.all)
     }
     

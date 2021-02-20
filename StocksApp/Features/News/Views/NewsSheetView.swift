@@ -27,9 +27,9 @@ struct NewsSheetView: View {
                 Rectangle().fill(Color.black.opacity(0.8))
                 
                 VStack(alignment: .leading) {
-                    // HeaderView
+                    NewsHeader()
                     Spacer()
-                    // ListView
+                    NewsListView(newsManager: newsManager)
                 }.padding()
             }
         }.edgesIgnoringSafeArea(.vertical)
