@@ -33,9 +33,10 @@ struct MiniQuoteView: View {
                     .foregroundColor(.white)
                 }
             }
-        }.onAppear {
-            stockQuotes.download(stocks: [], completion: { _ in })
         }
+//        .onAppear {
+//            stockQuotes.download(stocks: [], completion: { _ in })
+//        }
     }
 }
 
