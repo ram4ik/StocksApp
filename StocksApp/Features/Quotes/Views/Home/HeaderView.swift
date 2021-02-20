@@ -40,9 +40,9 @@ struct HeaderView: View {
                     .font(.title)
                     .foregroundColor(.white)
             }.sheet(isPresented: $showSearch, onDismiss: {
-                
+                self.stocks = UserDefaultsManager.shared.savedSymbols
             }, content: {
-                Text("Search view will go here")
+                SearchView()
             })
 
         }.background(Color.black)

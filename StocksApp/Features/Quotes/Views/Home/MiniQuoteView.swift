@@ -9,7 +9,7 @@ import SwiftUI
 
 struct MiniQuoteView: View {
     
-    @ObservedObject var stockQuotes: MockQuoteManager
+    @ObservedObject var stockQuotes: StockQuoteManager
     
     var body: some View {
         ScrollView(.horizontal, showsIndicators: false) {
@@ -34,14 +34,5 @@ struct MiniQuoteView: View {
                 }
             }
         }
-//        .onAppear {
-//            stockQuotes.download(stocks: [], completion: { _ in })
-//        }
-    }
-}
-
-struct MiniQuoteView_Previews: PreviewProvider {
-    static var previews: some View {
-        MiniQuoteView(stockQuotes: MockQuoteManager())
     }
 }

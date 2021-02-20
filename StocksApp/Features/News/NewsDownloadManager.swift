@@ -11,7 +11,7 @@ final class NewsDownloadManager: ObservableObject {
     
     @Published var newsArticles = [News]()
     
-    private let newsUrlString = "https://newsapi.org/v2/top-headline?country=us&category=business&apiKey=\(NewsAPI.key)"
+    private let newsUrlString = "https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=\(NewsAPI.key)"
     
     init() {
         download()
