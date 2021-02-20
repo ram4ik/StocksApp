@@ -26,6 +26,7 @@
 		1DB0585325E1573400C0C449 /* NewsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB0585225E1573400C0C449 /* NewsResponse.swift */; };
 		1DB0585625E1576C00C0C449 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB0585525E1576C00C0C449 /* News.swift */; };
 		1DB0585925E158D000C0C449 /* NewsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB0585825E158D000C0C449 /* NewsAPI.swift */; };
+		1DB0585C25E15AA100C0C449 /* NewsDownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB0585B25E15AA100C0C449 /* NewsDownloadManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		1DB0585225E1573400C0C449 /* NewsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsResponse.swift; sourceTree = "<group>"; };
 		1DB0585525E1576C00C0C449 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
 		1DB0585825E158D000C0C449 /* NewsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsAPI.swift; sourceTree = "<group>"; };
+		1DB0585B25E15AA100C0C449 /* NewsDownloadManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDownloadManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +168,7 @@
 			children = (
 				1DB0582A25E0FD8400C0C449 /* Views */,
 				1DB0582925E0FD7D00C0C449 /* Models */,
+				1DB0585B25E15AA100C0C449 /* NewsDownloadManager.swift */,
 			);
 			path = News;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 			files = (
 				1DB0585025E1483F00C0C449 /* MiniQuoteView.swift in Sources */,
 				1DB0582D25E0FE5C00C0C449 /* NetworkManager.swift in Sources */,
+				1DB0585C25E15AA100C0C449 /* NewsDownloadManager.swift in Sources */,
 				1DB0585625E1576C00C0C449 /* News.swift in Sources */,
 				1DB0584A25E1377F00C0C449 /* SearchTextView.swift in Sources */,
 				1DB0584725E1358700C0C449 /* CustomTextField.swift in Sources */,
