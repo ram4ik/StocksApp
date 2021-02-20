@@ -27,6 +27,7 @@
 		1DB0585625E1576C00C0C449 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB0585525E1576C00C0C449 /* News.swift */; };
 		1DB0585925E158D000C0C449 /* NewsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB0585825E158D000C0C449 /* NewsAPI.swift */; };
 		1DB0585C25E15AA100C0C449 /* NewsDownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB0585B25E15AA100C0C449 /* NewsDownloadManager.swift */; };
+		1DB0585F25E15DB500C0C449 /* BottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB0585E25E15DB500C0C449 /* BottomSheetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		1DB0585525E1576C00C0C449 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
 		1DB0585825E158D000C0C449 /* NewsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsAPI.swift; sourceTree = "<group>"; };
 		1DB0585B25E15AA100C0C449 /* NewsDownloadManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDownloadManager.swift; sourceTree = "<group>"; };
+		1DB0585E25E15DB500C0C449 /* BottomSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +188,7 @@
 		1DB0582A25E0FD8400C0C449 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				1DB0585E25E15DB500C0C449 /* BottomSheetView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -300,6 +303,7 @@
 				1DB0581425E0FCDD00C0C449 /* ContentView.swift in Sources */,
 				1DB0585925E158D000C0C449 /* NewsAPI.swift in Sources */,
 				1DB0581225E0FCDD00C0C449 /* StocksAppApp.swift in Sources */,
+				1DB0585F25E15DB500C0C449 /* BottomSheetView.swift in Sources */,
 				1DB0583325E108DE00C0C449 /* Quote.swift in Sources */,
 				1DB0583D25E11EFA00C0C449 /* MockQuoteManager.swift in Sources */,
 				1DB0584425E12F9200C0C449 /* HeaderView.swift in Sources */,
