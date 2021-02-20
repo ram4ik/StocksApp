@@ -18,6 +18,7 @@
 		1DB0583A25E11E1A00C0C449 /* QuoteManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB0583925E11E1A00C0C449 /* QuoteManagerProtocol.swift */; };
 		1DB0583D25E11EFA00C0C449 /* MockQuoteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB0583C25E11EFA00C0C449 /* MockQuoteManager.swift */; };
 		1DB0584025E1201500C0C449 /* StockQuoteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB0583F25E1201500C0C449 /* StockQuoteManager.swift */; };
+		1DB0584425E12F9200C0C449 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB0584325E12F9200C0C449 /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		1DB0583925E11E1A00C0C449 /* QuoteManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteManagerProtocol.swift; sourceTree = "<group>"; };
 		1DB0583C25E11EFA00C0C449 /* MockQuoteManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockQuoteManager.swift; sourceTree = "<group>"; };
 		1DB0583F25E1201500C0C449 /* StockQuoteManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockQuoteManager.swift; sourceTree = "<group>"; };
+		1DB0584325E12F9200C0C449 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 		1DB0582425E0FD5800C0C449 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				1DB0584225E12F7D00C0C449 /* Home */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -184,6 +187,14 @@
 				1DB0583F25E1201500C0C449 /* StockQuoteManager.swift */,
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		1DB0584225E12F7D00C0C449 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1DB0584325E12F9200C0C449 /* HeaderView.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +271,7 @@
 				1DB0581225E0FCDD00C0C449 /* StocksAppApp.swift in Sources */,
 				1DB0583325E108DE00C0C449 /* Quote.swift in Sources */,
 				1DB0583D25E11EFA00C0C449 /* MockQuoteManager.swift in Sources */,
+				1DB0584425E12F9200C0C449 /* HeaderView.swift in Sources */,
 				1DB0584025E1201500C0C449 /* StockQuoteManager.swift in Sources */,
 				1DB0583725E1095F00C0C449 /* API.swift in Sources */,
 				1DB0583025E106BE00C0C449 /* GlobalQuote.swift in Sources */,
