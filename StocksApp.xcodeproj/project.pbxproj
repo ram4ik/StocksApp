@@ -23,6 +23,9 @@
 		1DB0584A25E1377F00C0C449 /* SearchTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB0584925E1377F00C0C449 /* SearchTextView.swift */; };
 		1DB0584D25E1440600C0C449 /* QuoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB0584C25E1440600C0C449 /* QuoteCell.swift */; };
 		1DB0585025E1483F00C0C449 /* MiniQuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB0584F25E1483F00C0C449 /* MiniQuoteView.swift */; };
+		1DB0585325E1573400C0C449 /* NewsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB0585225E1573400C0C449 /* NewsResponse.swift */; };
+		1DB0585625E1576C00C0C449 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB0585525E1576C00C0C449 /* News.swift */; };
+		1DB0585925E158D000C0C449 /* NewsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB0585825E158D000C0C449 /* NewsAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +47,9 @@
 		1DB0584925E1377F00C0C449 /* SearchTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTextView.swift; sourceTree = "<group>"; };
 		1DB0584C25E1440600C0C449 /* QuoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteCell.swift; sourceTree = "<group>"; };
 		1DB0584F25E1483F00C0C449 /* MiniQuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniQuoteView.swift; sourceTree = "<group>"; };
+		1DB0585225E1573400C0C449 /* NewsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsResponse.swift; sourceTree = "<group>"; };
+		1DB0585525E1576C00C0C449 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		1DB0585825E158D000C0C449 /* NewsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +173,9 @@
 		1DB0582925E0FD7D00C0C449 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				1DB0585225E1573400C0C449 /* NewsResponse.swift */,
+				1DB0585525E1576C00C0C449 /* News.swift */,
+				1DB0585825E158D000C0C449 /* NewsAPI.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -280,15 +289,18 @@
 			files = (
 				1DB0585025E1483F00C0C449 /* MiniQuoteView.swift in Sources */,
 				1DB0582D25E0FE5C00C0C449 /* NetworkManager.swift in Sources */,
+				1DB0585625E1576C00C0C449 /* News.swift in Sources */,
 				1DB0584A25E1377F00C0C449 /* SearchTextView.swift in Sources */,
 				1DB0584725E1358700C0C449 /* CustomTextField.swift in Sources */,
 				1DB0584D25E1440600C0C449 /* QuoteCell.swift in Sources */,
 				1DB0581425E0FCDD00C0C449 /* ContentView.swift in Sources */,
+				1DB0585925E158D000C0C449 /* NewsAPI.swift in Sources */,
 				1DB0581225E0FCDD00C0C449 /* StocksAppApp.swift in Sources */,
 				1DB0583325E108DE00C0C449 /* Quote.swift in Sources */,
 				1DB0583D25E11EFA00C0C449 /* MockQuoteManager.swift in Sources */,
 				1DB0584425E12F9200C0C449 /* HeaderView.swift in Sources */,
 				1DB0584025E1201500C0C449 /* StockQuoteManager.swift in Sources */,
+				1DB0585325E1573400C0C449 /* NewsResponse.swift in Sources */,
 				1DB0583725E1095F00C0C449 /* API.swift in Sources */,
 				1DB0583025E106BE00C0C449 /* GlobalQuote.swift in Sources */,
 				1DB0583A25E11E1A00C0C449 /* QuoteManagerProtocol.swift in Sources */,
