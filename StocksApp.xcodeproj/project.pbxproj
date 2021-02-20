@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -30,6 +30,8 @@
 		1DB0585F25E15DB500C0C449 /* BottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB0585E25E15DB500C0C449 /* BottomSheetView.swift */; };
 		1DB0586225E1730600C0C449 /* NewsSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB0586125E1730600C0C449 /* NewsSheetView.swift */; };
 		1DB0586525E1754800C0C449 /* NewsHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB0586425E1754800C0C449 /* NewsHeader.swift */; };
+		1DB0586825E176A700C0C449 /* NewsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB0586725E176A700C0C449 /* NewsListView.swift */; };
+		1DB0586C25E180D800C0C449 /* BetterSafariView in Frameworks */ = {isa = PBXBuildFile; productRef = 1DB0586B25E180D800C0C449 /* BetterSafariView */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +60,7 @@
 		1DB0585E25E15DB500C0C449 /* BottomSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetView.swift; sourceTree = "<group>"; };
 		1DB0586125E1730600C0C449 /* NewsSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsSheetView.swift; sourceTree = "<group>"; };
 		1DB0586425E1754800C0C449 /* NewsHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsHeader.swift; sourceTree = "<group>"; };
+		1DB0586725E176A700C0C449 /* NewsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DB0586C25E180D800C0C449 /* BetterSafariView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +199,7 @@
 				1DB0585E25E15DB500C0C449 /* BottomSheetView.swift */,
 				1DB0586125E1730600C0C449 /* NewsSheetView.swift */,
 				1DB0586425E1754800C0C449 /* NewsHeader.swift */,
+				1DB0586725E176A700C0C449 /* NewsListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -246,6 +251,9 @@
 			dependencies = (
 			);
 			name = StocksApp;
+			packageProductDependencies = (
+				1DB0586B25E180D800C0C449 /* BetterSafariView */,
+			);
 			productName = StocksApp;
 			productReference = 1DB0580E25E0FCDD00C0C449 /* StocksApp.app */;
 			productType = "com.apple.product-type.application";
@@ -273,6 +281,9 @@
 				Base,
 			);
 			mainGroup = 1DB0580525E0FCDD00C0C449;
+			packageReferences = (
+				1DB0586A25E180D800C0C449 /* XCRemoteSwiftPackageReference "BetterSafariView" */,
+			);
 			productRefGroup = 1DB0580F25E0FCDD00C0C449 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -304,6 +315,7 @@
 				1DB0586525E1754800C0C449 /* NewsHeader.swift in Sources */,
 				1DB0585C25E15AA100C0C449 /* NewsDownloadManager.swift in Sources */,
 				1DB0585625E1576C00C0C449 /* News.swift in Sources */,
+				1DB0586825E176A700C0C449 /* NewsListView.swift in Sources */,
 				1DB0584A25E1377F00C0C449 /* SearchTextView.swift in Sources */,
 				1DB0584725E1358700C0C449 /* CustomTextField.swift in Sources */,
 				1DB0584D25E1440600C0C449 /* QuoteCell.swift in Sources */,
@@ -506,6 +518,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1DB0586A25E180D800C0C449 /* XCRemoteSwiftPackageReference "BetterSafariView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stleamist/BetterSafariView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1DB0586B25E180D800C0C449 /* BetterSafariView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1DB0586A25E180D800C0C449 /* XCRemoteSwiftPackageReference "BetterSafariView" */;
+			productName = BetterSafariView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1DB0580625E0FCDD00C0C449 /* Project object */;
 }
