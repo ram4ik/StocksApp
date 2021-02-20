@@ -29,6 +29,7 @@
 		1DB0585C25E15AA100C0C449 /* NewsDownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB0585B25E15AA100C0C449 /* NewsDownloadManager.swift */; };
 		1DB0585F25E15DB500C0C449 /* BottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB0585E25E15DB500C0C449 /* BottomSheetView.swift */; };
 		1DB0586225E1730600C0C449 /* NewsSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB0586125E1730600C0C449 /* NewsSheetView.swift */; };
+		1DB0586525E1754800C0C449 /* NewsHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB0586425E1754800C0C449 /* NewsHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		1DB0585B25E15AA100C0C449 /* NewsDownloadManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDownloadManager.swift; sourceTree = "<group>"; };
 		1DB0585E25E15DB500C0C449 /* BottomSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetView.swift; sourceTree = "<group>"; };
 		1DB0586125E1730600C0C449 /* NewsSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsSheetView.swift; sourceTree = "<group>"; };
+		1DB0586425E1754800C0C449 /* NewsHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +194,7 @@
 			children = (
 				1DB0585E25E15DB500C0C449 /* BottomSheetView.swift */,
 				1DB0586125E1730600C0C449 /* NewsSheetView.swift */,
+				1DB0586425E1754800C0C449 /* NewsHeader.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 			files = (
 				1DB0585025E1483F00C0C449 /* MiniQuoteView.swift in Sources */,
 				1DB0582D25E0FE5C00C0C449 /* NetworkManager.swift in Sources */,
+				1DB0586525E1754800C0C449 /* NewsHeader.swift in Sources */,
 				1DB0585C25E15AA100C0C449 /* NewsDownloadManager.swift in Sources */,
 				1DB0585625E1576C00C0C449 /* News.swift in Sources */,
 				1DB0584A25E1377F00C0C449 /* SearchTextView.swift in Sources */,
