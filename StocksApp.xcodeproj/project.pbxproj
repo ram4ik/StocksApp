@@ -36,6 +36,9 @@
 		1DB0587325E1828F00C0C449 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB0587225E1828F00C0C449 /* ImageCache.swift */; };
 		1DB0587625E1829C00C0C449 /* ImageCacheKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB0587525E1829C00C0C449 /* ImageCacheKey.swift */; };
 		1DB0587925E182AD00C0C449 /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB0587825E182AD00C0C449 /* AsyncImage.swift */; };
+		1DB0587C25E1939400C0C449 /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB0587B25E1939400C0C449 /* SearchResponse.swift */; };
+		1DB0587F25E193C900C0C449 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB0587E25E193C900C0C449 /* Search.swift */; };
+		1DB0588225E194EC00C0C449 /* SearchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB0588125E194EC00C0C449 /* SearchManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +72,9 @@
 		1DB0587225E1828F00C0C449 /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
 		1DB0587525E1829C00C0C449 /* ImageCacheKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCacheKey.swift; sourceTree = "<group>"; };
 		1DB0587825E182AD00C0C449 /* AsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
+		1DB0587B25E1939400C0C449 /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
+		1DB0587E25E193C900C0C449 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		1DB0588125E194EC00C0C449 /* SearchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +169,7 @@
 			children = (
 				1DB0582725E0FD6D00C0C449 /* Views */,
 				1DB0582625E0FD6600C0C449 /* Models */,
+				1DB0588125E194EC00C0C449 /* SearchManager.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -170,6 +177,8 @@
 		1DB0582625E0FD6600C0C449 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				1DB0587B25E1939400C0C449 /* SearchResponse.swift */,
+				1DB0587E25E193C900C0C449 /* Search.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -338,10 +347,12 @@
 				1DB0586825E176A700C0C449 /* NewsListView.swift in Sources */,
 				1DB0584A25E1377F00C0C449 /* SearchTextView.swift in Sources */,
 				1DB0584725E1358700C0C449 /* CustomTextField.swift in Sources */,
+				1DB0587C25E1939400C0C449 /* SearchResponse.swift in Sources */,
 				1DB0587625E1829C00C0C449 /* ImageCacheKey.swift in Sources */,
 				1DB0584D25E1440600C0C449 /* QuoteCell.swift in Sources */,
 				1DB0586225E1730600C0C449 /* NewsSheetView.swift in Sources */,
 				1DB0581425E0FCDD00C0C449 /* ContentView.swift in Sources */,
+				1DB0587F25E193C900C0C449 /* Search.swift in Sources */,
 				1DB0585925E158D000C0C449 /* NewsAPI.swift in Sources */,
 				1DB0581225E0FCDD00C0C449 /* StocksAppApp.swift in Sources */,
 				1DB0585F25E15DB500C0C449 /* BottomSheetView.swift in Sources */,
@@ -349,6 +360,7 @@
 				1DB0587025E1828300C0C449 /* ImageLoader.swift in Sources */,
 				1DB0583D25E11EFA00C0C449 /* MockQuoteManager.swift in Sources */,
 				1DB0584425E12F9200C0C449 /* HeaderView.swift in Sources */,
+				1DB0588225E194EC00C0C449 /* SearchManager.swift in Sources */,
 				1DB0587325E1828F00C0C449 /* ImageCache.swift in Sources */,
 				1DB0584025E1201500C0C449 /* StockQuoteManager.swift in Sources */,
 				1DB0585325E1573400C0C449 /* NewsResponse.swift in Sources */,
