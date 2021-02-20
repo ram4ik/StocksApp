@@ -52,6 +52,8 @@
 		1DB0581025E0FCDD00C0C449 /* StocksApp */ = {
 			isa = PBXGroup;
 			children = (
+				1DB0582B25E0FDA300C0C449 /* Utils */,
+				1DB0582125E0FD2A00C0C449 /* Features */,
 				1DB0581125E0FCDD00C0C449 /* StocksAppApp.swift */,
 				1DB0581325E0FCDD00C0C449 /* ContentView.swift */,
 				1DB0581525E0FCE100C0C449 /* Assets.xcassets */,
@@ -67,6 +69,92 @@
 				1DB0581825E0FCE100C0C449 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1DB0582125E0FD2A00C0C449 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				1DB0582825E0FD7600C0C449 /* News */,
+				1DB0582525E0FD6000C0C449 /* Search */,
+				1DB0582225E0FD3F00C0C449 /* Quotes */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		1DB0582225E0FD3F00C0C449 /* Quotes */ = {
+			isa = PBXGroup;
+			children = (
+				1DB0582425E0FD5800C0C449 /* Views */,
+				1DB0582325E0FD4F00C0C449 /* Models */,
+			);
+			path = Quotes;
+			sourceTree = "<group>";
+		};
+		1DB0582325E0FD4F00C0C449 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1DB0582425E0FD5800C0C449 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1DB0582525E0FD6000C0C449 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				1DB0582725E0FD6D00C0C449 /* Views */,
+				1DB0582625E0FD6600C0C449 /* Models */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		1DB0582625E0FD6600C0C449 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1DB0582725E0FD6D00C0C449 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1DB0582825E0FD7600C0C449 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				1DB0582A25E0FD8400C0C449 /* Views */,
+				1DB0582925E0FD7D00C0C449 /* Models */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		1DB0582925E0FD7D00C0C449 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1DB0582A25E0FD8400C0C449 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1DB0582B25E0FDA300C0C449 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
