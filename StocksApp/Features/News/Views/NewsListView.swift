@@ -25,7 +25,16 @@ struct NewsListView: View {
                                 .foregroundColor(.white)
                                 .fixedSize(horizontal: false, vertical: true)
                             Spacer()
-                            // Async Image
+                            AsyncImage.init(url: URL(string: article.imageUrl)!) {
+                                RoundedRectangle(cornerRadius: 10)
+                                    .fill(Color.white.opacity(0.2))
+                            } image: { (img) -> Image in
+                                Image(uiImage: img)
+                                    .resizable()
+                            }
+                            .scaledToFill()
+                            .frame(width: 100, height: 160)
+                            .cornerRadius(10)
                         }
                         .contentShape(Rectangle())
                         .onTapGesture {
